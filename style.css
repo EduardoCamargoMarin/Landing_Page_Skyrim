@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background-color: black;
+
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around ;
+    border: 0.4px groove gray;
+    border-width: 10px;
+    margin: 5px;    
+}
+
+.cabecalho-imagem {
+    height: 150px;
+    }
+
+.cabecalho-menu{
+        display: flex;
+        gap: 70px;
+    }
+
+
+.botao-cabecalho{
+    background-color: rgb(85, 84, 84);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font font-weight: 500;
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    border-color: rgb(240, 233, 233);
+    border-width: 5px;
+}
+
+.Corpo{
+border-top: 10px groove whitesmoke;
+border-bottom: 0.4px groove whitesmoke;
+border: 0.4px groove gray;
+border-width: 20px;
+}
+
+.corpo-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+  
+
+
+.corpo-itemparagrafo{
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    font font-weight: 400;
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.corpo-item{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(168, 167, 167);
+    font font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.corpo-item-2{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(168, 167, 167);
+    font font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.botao-corpo-1{
+    background-color: rgb(85, 84, 84);
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    border-color: rgb(240, 233, 233);
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    
+    
+
+}
+
+.corpo-imagem-1{
+
+    height: 350px;
+   transform:translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(20px);
+
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/*_______________________________________________________________________________________________________________________*/
+/*                                                          PARTE 2                                                      */
+/*_______________________________________________________________________________________________________________________*/
+
+
+    
+    .Corpo-2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+        border-top: 10px groove gray;
+        
+    }
+    
+      
+    
+    
+    .corpo-2-item-1{
+        font-family: 'Open Sans', sans-serif;
+        color: whitesmoke;
+        font font-weight: 400;
+        font-size: 30px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+    }
+    
+    .corpo-2-paragrafo{
+        font-family: 'Open Sans', sans-serif;
+        border-color: rgb(240, 233, 233);
+        font font-weight: 400;
+        font-size: 16px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+    }
+
+    .corpo-2-paragrafo{
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(168, 167, 167);
+        font font-weight: 400;
+        font-size: 16px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+    }
+    
+    
+    
+    .botao-corpo-2{
+        background-color: rgb(85, 84, 84);
+        font-family: 'Open Sans', sans-serif;
+        color:white;
+        width: 250px;
+        height: 50px;
+        font-size: 18px;
+        border-color: rgb(216, 212, 212);
+        border-width: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    
+        
+       
+        
+        
+        
+    
+    }
+    
+    .corpo-imagem-2{
+    
+        height: 400px;
+       transform:translateY(0px);
+        animation: float1 5s ease-in-out infinite;
+        
+    }
+    
+    @keyframes float1 {
+        0%{
+            transform: translateY(0px);
+        }
+    
+        50%{
+            transform: translateY(25px);
+    
+        }
+    
+        100%{
+            transform: translateY(0px);
+        }
+    }
+    
+/*___________________________________________________________________________________________________________________________*/
+/*                                                          PARTE 3                                                          */
+/*___________________________________________________________________________________________________________________________*/
+
+.corpo-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-top: 10px groove gray;
+    
+}
+
+  
+
+
+.corpo-3-item-1{
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    font font-weight: 400;
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.corpo-3-paragrafo{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(168, 167, 167);
+    font font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+
+
+
+
+.botao-corpo-3{
+    background-color: rgb(85, 84, 84);
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    border-color: rgb(240, 233, 233);
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    
+   
+    
+    
+    
+
+}
+
+.corpo-imagem-3{
+
+    height: 600px;
+   transform:translateY(0px);
+    animation: float2 5s ease-in-out infinite;
+    
+}
+
+@keyframes float2 {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(30px);
+
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/*___________________________________________________________________________________________________________________________*/
+/*                                                          PARTE 4                                                         */
+/*___________________________________________________________________________________________________________________________*/
+
+.corpo-4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-top: 10px groove gray;
+    
+}
+
+  
+
+
+.corpo-4-item-1{
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    font font-weight: 400;
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.corpo-4-paragrafo{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(168, 167, 167);
+    font font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+
+
+
+
+.botao-corpo-4{
+    background-color: rgb(85, 84, 84);
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    border-color: rgb(240, 233, 233);
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    
+   
+    
+    
+    
+
+}
+
+.corpo-imagem-4{
+
+    height: 350px;
+   transform:translateY(0px);
+    animation: float3 5s ease-in-out infinite;
+    
+}
+
+@keyframes float3 {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(30px);
+
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/*___________________________________________________________________________________________________________________________*/
+/*                                                          PARTE 5                                                         */
+/*___________________________________________________________________________________________________________________________*/
+
+.corpo-5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-top: 10px groove gray;
+    
+}
+
+  
+
+
+.corpo-5-item-1{
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    font font-weight: 400;
+    font-size: 30px;
+    border-right: 30px;
+    padding: 24px;
+}
+
+.corpo-5-paragrafo{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(168, 167, 167);
+    font font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: auto;
+    padding: 24px;
+}
+
+
+
+
+
+.botao-corpo-5{
+    background-color: rgb(85, 84, 84);
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    border-color: rgb(240, 233, 233);
+    border-width: 5px;
+    margin-left: 50px;
+    margin-right: auto;
+    display: block;
+
+    
+   
+    
+    
+    
+
+}
+
+.corpo-imagem-5{
+
+    height: 300px;
+   transform:translateY(0px);
+    animation: float4 5s ease-in-out infinite;
+    
+}
+
+@keyframes float4 {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(20px);
+
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* RODAPE*/
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around ;
+    border: 10px groove gray;
+    
+    margin: 2px;    
+}
+
+.rodape-imagem {
+    height: 200px;
+    }
+
+.rodape-menu{
+        display: flex;
+        gap: 70px;
+    }
+
+..rodape-item{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(248, 249, 250);
+    font font-weight: 1000;
+    font-size: 25px;
+}
